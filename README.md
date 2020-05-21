@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Q&A
 
-In the project directory, you can run:
+1. **What is the convention for naming classes in CSS?**
+Answer: 
+There is no only one one set of rules that everyone has to follow when naming classes in CSS. There are different ways that developer can use to decide on class names. One of the most popular approaches is Block Element Modifier or simply BEM. It looks like this: `.block__element--modifier`. In this model block is an independent component that can hold other components. Element is a part of a block that can only be used inside of it. Modifier is a unit that defines how the block and element should look but its use is optional. There is another popular way of naming classes called Scalable and Modular Architecture for CSS. This pattern is useful when the developer wants to change the styles on a page while user interacts with it. It looks like this: `.element.has-error`. The main idea of all approaches is to make styles easy to manage and prevent bugs and unexpected side effects when applying a style to one of the elements affects another element.
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+2. **What is one way to stop a form from submitting with JavaScript?**
+Answer:
+To stop a form from submitting in JavaScript we can create a function that will receive an argument called event and then apply preventDefault method on it. Something like this: 
+`const handleSubmit = event => event.preventDefault()`
+Then we simply call this function when submitting the form. 
+`<form onSubmit={handleSubmit}> /* form content */ <form>`
+3. **When and how should HTML code be validated?**
+Answer:
+It is better when HTML code is regularly being validated during the development process. The reason for validating is to prevent unexpected behavior. It also makes the code easier to maintain as well as makes the website more 'visible' for search engines. It is important to know that different users all around the world have different devices and software which means that our code can be 'interpreted' differently according to this circumstances. Validation helps to understand whether the code is written according to web standards that guarantee that future web platforms will handle it the way we need. The most popular way to validate HTML code is to use a a tool provided by w3: [https://validator.w3.org/](https://validator.w3.org/)
+4. **What is the DOM? Please explain in your own words.**
+Answer:
+DOM stands for Document Object Model. Basically DOM is a set of rules or standard that w3c (World Wide Web Consortium) has agreed on, which allows scripts to dynamically access contents of the document in order to update them. It is called DOM manipulation. DOM has a 'tree-like' logical structure. Each branch of this tree has at least one node. At the end of each node there is an object that describes a part of the document. This object can be accessed according to the rules and its properties can be modified. Each web page is described by the document which means that using DOM we can not only jump between static pages but also interact with them.
+5. **Which one is better: CSS Grid, Flexbox or just plain CSS?**
+Answer: 
+Everything depends on a situation. Each approach can be useful in certain case. There are pros and cons to each of them. For example, using plain css is a good choice for styling small particular components or styling a component that does not have much content inside of it. On the other hand, if a component has a lot of children, aligning each of them one by one can be time consuming. This is where flexbox and grid come in. They allow to easily place contents of a page according to specified structure. Using grid can be a good decision when it is clear how many children element has and this value isn't going to change in future. Flexbox can help to solve the issue when children number increases if a page renders additional data. In general, both flex and grid help to achieve responsiveness and can be both used in similar situations. All these tools are decisions that every developer or a team make on their own and at the end of the day it is just a matter of personal preference and benefit against other approaches.
