@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wyncode-challenge/precache-manifest.1afa18f033b0ddfed2ad779c9c19dd56.js"
+  "/wyncode-challenge/precache-manifest.562c5354d8d3af2216156f277ca8c086.js"
 );
 
 self.addEventListener('message', (event) => {
