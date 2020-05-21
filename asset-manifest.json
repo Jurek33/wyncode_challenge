@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wyncode-challenge/static/css/main.a6d7d0c4.chunk.css",
-    "main.js": "/wyncode-challenge/static/js/main.4e2d2057.chunk.js",
-    "main.js.map": "/wyncode-challenge/static/js/main.4e2d2057.chunk.js.map",
-    "runtime-main.js": "/wyncode-challenge/static/js/runtime-main.286541e8.js",
-    "runtime-main.js.map": "/wyncode-challenge/static/js/runtime-main.286541e8.js.map",
-    "static/js/2.0e31e9d9.chunk.js": "/wyncode-challenge/static/js/2.0e31e9d9.chunk.js",
-    "static/js/2.0e31e9d9.chunk.js.map": "/wyncode-challenge/static/js/2.0e31e9d9.chunk.js.map",
-    "index.html": "/wyncode-challenge/index.html",
-    "precache-manifest.562c5354d8d3af2216156f277ca8c086.js": "/wyncode-challenge/precache-manifest.562c5354d8d3af2216156f277ca8c086.js",
-    "service-worker.js": "/wyncode-challenge/service-worker.js",
-    "static/css/main.a6d7d0c4.chunk.css.map": "/wyncode-challenge/static/css/main.a6d7d0c4.chunk.css.map",
-    "static/js/2.0e31e9d9.chunk.js.LICENSE.txt": "/wyncode-challenge/static/js/2.0e31e9d9.chunk.js.LICENSE.txt"
+    "main.css": "/wyncode_challenge/static/css/main.a6d7d0c4.chunk.css",
+    "main.js": "/wyncode_challenge/static/js/main.e6978691.chunk.js",
+    "main.js.map": "/wyncode_challenge/static/js/main.e6978691.chunk.js.map",
+    "runtime-main.js": "/wyncode_challenge/static/js/runtime-main.19fab884.js",
+    "runtime-main.js.map": "/wyncode_challenge/static/js/runtime-main.19fab884.js.map",
+    "static/js/2.0e31e9d9.chunk.js": "/wyncode_challenge/static/js/2.0e31e9d9.chunk.js",
+    "static/js/2.0e31e9d9.chunk.js.map": "/wyncode_challenge/static/js/2.0e31e9d9.chunk.js.map",
+    "index.html": "/wyncode_challenge/index.html",
+    "precache-manifest.f005b10f5f69e87d2d52cedef3438a0b.js": "/wyncode_challenge/precache-manifest.f005b10f5f69e87d2d52cedef3438a0b.js",
+    "service-worker.js": "/wyncode_challenge/service-worker.js",
+    "static/css/main.a6d7d0c4.chunk.css.map": "/wyncode_challenge/static/css/main.a6d7d0c4.chunk.css.map",
+    "static/js/2.0e31e9d9.chunk.js.LICENSE.txt": "/wyncode_challenge/static/js/2.0e31e9d9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.286541e8.js",
+    "static/js/runtime-main.19fab884.js",
     "static/js/2.0e31e9d9.chunk.js",
     "static/css/main.a6d7d0c4.chunk.css",
-    "static/js/main.4e2d2057.chunk.js"
+    "static/js/main.e6978691.chunk.js"
   ]
 }
