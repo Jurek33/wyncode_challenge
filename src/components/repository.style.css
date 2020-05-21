@@ -1,0 +1,16 @@
+.repository {
+   padding: 2%;
+   margin: 1%;
+   box-shadow: 0 8px 6px -6px black;
+   background-color: #FFF8E9;
+   transition: all .2s ease-in-out;
+   border-radius: 1em;
+   width: 360px;
+}
+.repository:hover {
+   transform: scale(1.05);
+}
+.link {
+   text-decoration: none;
+   color: black;
+}

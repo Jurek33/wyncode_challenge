@@ -1,0 +1,19 @@
+.repositories-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 4%;
+}
+
+@media (max-width: 420px) {
+   .repositories-container {
+      font-size: small;
+   }
+}
+
+@media (max-width: 350px) {
+   .repositories-container {
+      font-size: 0.7em;
+   }
+}
